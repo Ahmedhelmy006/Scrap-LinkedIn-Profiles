@@ -14,11 +14,11 @@ This repository contains a suite of Python scripts to scrape various data from L
 
 ## General Instructions:
 
--Linkedin free acocunts are limited to open 100-200 profiles daily before you're blocked on linkedin. Given your account history, you might be able to scrap 200 accounts per day. DO NOT BRUTE FORCE THIS, you will end up losing your account.
--LinkedIn premium accounts are limited to scrap 1000 profiles per day before you're blocked. DO NOT BRUTE FORCE THIS EITHER. you're limited to 1k profiles per day.
--When fetching urls, note that linkedin will show you 100 profiles. Say you want to scrap someone followers, even if they have 100k followers, you will end up with 100 profiles. So, you might wanna alternate your query to fetch different 100 profiels. Quite a long process but tested and proven effective.
--When injecting your cookies to the dom, make sure you run the CookiesCleaner.py module to clean the cookies. If you get the cookies from the browser directly, linkedin detects something is off. This module will help you use the bare minimum cookies for your session
--If you're using virtual VMS, make sure they have the same IP. Note that your linkedin session will not be valied if it has been used through 4 different IPs. 
+- Linkedin free acocunts are limited to open 100-200 profiles daily before you're blocked on linkedin. Given your account history, you might be able to scrap 200 accounts per day. DO NOT BRUTE FORCE THIS, you will end up losing your account.
+- LinkedIn premium accounts are limited to scrap 1000 profiles per day before you're blocked. DO NOT BRUTE FORCE THIS EITHER. you're limited to 1k profiles per day.
+- When fetching urls, note that linkedin will show you 100 profiles. Say you want to scrap someone followers, even if they have 100k followers, you will end up with 100 profiles. So, you might wanna alternate your query to fetch different 100 profiels. Quite a long process but tested and proven effective.
+- When injecting your cookies to the dom, make sure you run the CookiesCleaner.py module to clean the cookies. If you get the cookies from the browser directly, linkedin detects something is off. This module will help you use the bare minimum cookies for your session
+- If you're using virtual VMS, make sure they have the same IP. Note that your linkedin session will not be valied if it has been used through 4 different IPs. 
 
 ## Prerequisites
 
